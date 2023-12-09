@@ -1,0 +1,51 @@
+html, body{
+    width: 1200px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+body{
+    background-color: #6F3A1B;
+    border-radius: 30px;
+}
+
+h1{
+    font-family: "Vina Sans";
+}
+
+article{
+    font-family: "Karla";
+    background-color: #1B506F;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    justify-content: center; 
+}
+
+img{
+    width: 150px;
+    border-radius: 100%;
+}
+
+footer{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
