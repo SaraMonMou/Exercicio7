@@ -1,17 +1,17 @@
 html, body{
-    width: 1200px;
+    max-width: 1200px;
 }
 
 header{
     display: flex;
     justify-content: center;
     color: aliceblue;
+    background-color: #6F3A1B;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    
 }
 
-body{
-    background-color: #6F3A1B;
-    border-radius: 30px;
-}
 
 h1{
     font-family: "Vina Sans";
@@ -36,7 +36,7 @@ main{
     background-color: aliceblue;
     padding-top: 120px;
     padding-bottom: 120px;
-    justify-content: center; 
+    justify-content: space-around; 
 }
 
 img{
@@ -48,4 +48,7 @@ footer{
     color: aliceblue;
     display: flex;
     justify-content: center;
+    background-color: #6F3A1B;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
